@@ -31,13 +31,14 @@ p span.i1{
 
 table.mark{
 	margin: 1em auto;
-	text-align:center;
+	text-align: center;
 }
 
 footer{
-	margin-top:1em;
+	margin-top: 1em;
+	text-align:initial;
 }
 
 section#part-1 p:first-of-type{
-	text-align:right;	
+	text-align: right;
 }
