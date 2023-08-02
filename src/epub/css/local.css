@@ -39,6 +39,6 @@ footer{
 	text-align: initial;
 }
 
-section#part-1 p:first-of-type{
+p.initial_date{
 	text-align: right;
 }
