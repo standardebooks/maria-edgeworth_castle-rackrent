@@ -29,16 +29,16 @@ p span.i1{
 	text-indent: -1em;
 }
 
-table.mark{
-	margin: 1em auto;
-	text-align: center;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: initial;
 }
 
-p.initial_date{
-	text-align: right;
+#part-1 > h2 + p {
+	text-align:right;
+}
+
+#note-33 table {
+	margin: 1em auto;
+	text-align: center;
 }
