@@ -34,11 +34,11 @@ footer{
 	text-align: initial;
 }
 
-#part-1 > h2 + p {
-	text-align:right;
+#part-1 > h2 + p{
+	text-align: right;
 }
 
-#note-33 table {
+#note-33 table{
 	margin: 1em auto;
 	text-align: center;
 }
