@@ -42,3 +42,8 @@ footer{
 	margin: 1em auto;
 	text-align: center;
 }
+
+#note-33 tr:nth-child(2) td:nth-child(2) {
+	font-weight:bold;
+	writing-mode:vertical-rl;
+}
