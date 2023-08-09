@@ -38,12 +38,21 @@ footer{
 	text-align: right;
 }
 
-#note-33 table{
-	margin: 1em auto;
+#note-33 > div{
+	display: table;
+	margin: auto;
 	text-align: center;
 }
 
-#note-33 tr:nth-child(2) td:nth-child(2) {
-	font-weight:bold;
-	writing-mode:vertical-rl;
+#note-33 > div > div{
+	display: table-row;
+}
+
+#note-33 > div > div > div{
+	display: table-cell;
+}
+
+#note-33 > div > div > div > span{
+	font-weight: bold;
+	writing-mode: vertical-rl;
 }
