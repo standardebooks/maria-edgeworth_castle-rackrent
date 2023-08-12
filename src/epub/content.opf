@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Castle Rackrent</dc:title>
 		<meta property="file-as" refines="#title">Castle Rackrent</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">An Hibernian Tale. Taken from Facts, and from the Manners of the Irish Squires Before the Year 1782</dc:title>
+		<meta property="file-as" refines="#subtitle">An Hibernian Tale. Taken from Facts, and from the Manners of the Irish Squires Before the Year 1782</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Castle Rackrent: An Hibernian Tale. Taken from Facts, and from the Manners of the Irish Squires Before the Year 1782</dc:title>
+		<meta property="file-as" refines="#fulltitle">Castle Rackrent: An Hibernian Tale. Taken from Facts, and from the Manners of the Irish Squires Before the Year 1782</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Domestic fiction</dc:subject>
 		<dc:subject id="subject-2">Landlord and tenant -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Poor families -- Fiction</dc:subject>
@@ -58,37 +65,41 @@
 		<meta property="term" refines="#subject-9">sh2010111518</meta>
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">sh2007100580</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">Four generations of an aristocratic Anglo-Irish family settle on their family estate in eighteenth-century Ireland.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;In eighteenth-century Ireland, a class of Anglo-Irish landowners known as the “Protestant Ascendancy” were the major landholders and landlords across Ireland, with the mostly Catholic Irish acting as their tenants and servants.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/maria-edgeworth"&gt;Maria Edgeworth&lt;/a&gt; was part of this Anglo-Irish aristocracy. &lt;i&gt;Castle Rackrent&lt;/i&gt;, her best known novel, is a satirical commentary on the failures and follies of her Anglo-Irish peers, whose mismanagement of their estates and abuse of their Irish tenants she saw firsthand.&lt;/p&gt;
+			&lt;p&gt;The narrator of &lt;i&gt;Castle Rackrent&lt;/i&gt; is Thady Quirk, whose family has served on the Rackrent estate for generations. Thady realates the life stories of four successive lords of Castle Rackrent, their wives, and how their lives on the estate affect the families and livelihoods that depend on them. Edgeworth included explanatory notes on aspects of Irish life and culture unfamiliar to English readers.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Castle Rackrent&lt;/i&gt; was one of the first historical novels written in English, and &lt;a href="https://standardebooks.org/ebooks/walter-scott"&gt;Walter Scott&lt;/a&gt; later cited it as inspiration for his own Scottish historical novels.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1424</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/talesnovels01edgeiala/</dc:source>
+		<meta property="se:production-notes">Most edition of Castle Rackrent contain two sets of notes, footnotes included with the first edition and endnotes, called by Edgeworth a glossary, added for the second edition. This Standard Ebooks edition includes both sets of notes as endnotes; as a result, in a few cases where Edgeworth included a footnote and then later a more extensive glossary entry, there are two notes in this edition for a single term in the main text.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Castle_Rackrent</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/maria-edgeworth_castle-rackrent</meta>
 		<dc:creator id="author">Maria Edgeworth</dc:creator>
 		<meta property="file-as" refines="#author">Edgeworth, Maria</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Maria_Edgeworth</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061006</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">George Barret</dc:contributor>
+		<meta property="file-as" refines="#artist">Barret, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Barret_Sr.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr2002045399</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Christopher Hapka</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Hapka, Christopher</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
