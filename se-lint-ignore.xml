@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="part-1.xhtml">
+		<ignore>
+			<code>t-058</code>
+			<reason>Soft hyphens needed for extremely long place name</reason>
+		</ignore>
+	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-064</code>
+			<reason>Short footnote misidentified as citation</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
