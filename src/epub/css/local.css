@@ -38,9 +38,11 @@ footer{
 	text-align: center;
 }
 
-#note-33 > div > div:nth-child(2) > span:nth-child(2){
-	font-weight: bold;
-	writing-mode: vertical-rl;
+@supports(writing-mode: vertical-rl){
+	#note-33 > div > div:nth-child(2) > span:nth-child(2){
+		font-weight: bold;
+		writing-mode: vertical-rl;
+	}
 }
 
 @supports(display: grid){
