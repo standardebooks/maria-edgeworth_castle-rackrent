@@ -30,7 +30,7 @@ footer{
 	text-align: initial;
 }
 
-#part-1 > h2 + p{
+#chapter-1 > h2 + p{
 	text-align: right;
 }
 
