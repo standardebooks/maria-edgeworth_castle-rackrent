@@ -26,11 +26,6 @@ p span.i1{
 	text-indent: -1em;
 }
 
-footer{
-	margin-top: 1em;
-	text-align: initial;
-}
-
 #chapter-1 > h2 + p{
 	text-align: right;
 }
