@@ -6,4 +6,10 @@
 			<reason>Soft hyphens needed for extremely long place name</reason>
 		</ignore>
 	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-064</code>
+			<reason>Matched text are not citations.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
