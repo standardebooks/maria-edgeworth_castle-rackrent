@@ -78,7 +78,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/1424</dc:source>
 		<dc:source>https://archive.org/details/talesnovels01edgeiala/</dc:source>
 		<meta property="se:production-notes">Most edition of Castle Rackrent contain two sets of notes: footnotes included with the first edition, and endnotes, called by Edgeworth a glossary, added for the second edition.</meta>
-		<meta property="se:word-count">27650</meta>
+		<meta property="se:word-count">27641</meta>
 		<meta property="se:reading-ease.flesch">62.45</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Castle_Rackrent</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/maria-edgeworth_castle-rackrent</meta>
