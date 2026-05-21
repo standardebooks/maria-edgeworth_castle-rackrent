@@ -26,12 +26,12 @@ p span.i1{
 	text-indent: -1em;
 }
 
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	font-style: italic;
 	text-align: right;
 }
 
-[epub|type~="bridgehead"] a{
+[epub|type~="se:bridgehead"] a{
 	font-style: normal;
 }
 
