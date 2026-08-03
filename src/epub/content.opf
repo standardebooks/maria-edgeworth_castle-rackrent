@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/maria-edgeworth/castle-rackrent</dc:identifier>
 		<dc:date>2023-08-28T18:08:16Z</dc:date>
@@ -68,14 +68,14 @@
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">sh2007100580</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">Four generations of an aristocratic Anglo-Irish family settle on their family estate in eighteenth-century Ireland.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Four generations of an aristocratic Anglo-Irish family settle on their family estate in eighteenth-century Ireland.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;In eighteenth-century Ireland, a privileged class of Anglo-Irish landowners known as the “Protestant Ascendancy” lived on great estates, with the mostly Catholic Irish as their tenants and servants.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/maria-edgeworth"&gt;Maria Edgeworth&lt;/a&gt; was part of this Anglo-Irish aristocracy. &lt;i&gt;Castle Rackrent&lt;/i&gt;, her best known novel, satirizes the failures and follies of her Anglo-Irish peers, their mismanagement of their estates, and their abuse of their Irish tenants.&lt;/p&gt;
 			&lt;p&gt;The narrator of &lt;i&gt;Castle Rackrent&lt;/i&gt; is Thady Quirk, whose family has served on the Rackrent estate for generations. Thady relates the life stories of four successive lords of Castle Rackrent and how their individual character and personality affect the lives and families that depend on them.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Castle Rackrent&lt;/i&gt; was one of the first historical novels written in English, and &lt;a href="https://standardebooks.org/ebooks/walter-scott"&gt;Walter Scott&lt;/a&gt; later cited it as inspiration for his own Scottish historical novels.&lt;/p&gt;
 			&lt;p&gt;Edgeworth included two sets of explanatory notes on aspects of Irish life and culture for her English readers, footnotes in the main text and a “glossary” added in the second edition. These have been merged into a single set of endnotes in this Standard Ebooks edition.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1424</dc:source>
 		<dc:source>https://archive.org/details/talesnovels01edgeiala</dc:source>
